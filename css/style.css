@@ -36,9 +36,9 @@
 
 /*for custom fonts*/
 @font-face {
-    font-family: 'mustardo';
-    src: url('../fonts/mustardo/mustardo-webfont.woff2') format('woff2'),
-         url('../fonts/mustardo/mustardo-webfont.woff') format('woff');
+    font-family: 'cursive';
+    src: url('../fonts/cursive/cursive-webfont.woff2') format('woff2'),
+         url('../fonts/cursive/cursive-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -8381,14 +8381,14 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #FFAC00;
-      font-family: mustardo;
+      font-family: cursive;
       padding-top: 1rem;
       padding-bottom: 1rem;
       font-size: 24px; }
 
 .navbar-brand {
   color: #FFAC00;
-  font-family: mustardo;
+  font-family: cursive;
   font-size: 26px;
   position: relative;
   z-index: 0; }
