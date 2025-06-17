@@ -37,7 +37,7 @@
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav
+   <nav
       class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light site-navbar-target"
       id="ftco-navbar"
     >
@@ -61,15 +61,26 @@
               <a href="#home-section" class="nav-link"><span>Home</span></a>
             </li>
             <li class="nav-item">
-              <a href="#about-section" class="nav-link"><span>About</span></a>
+              <a href="#skill-section" class="nav-link"><span>Skills</span></a>
             </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+               <li class="nav-item">
+              <a href="#experience-section" class="nav-link"><span>Experience</span></a>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a href="#project-section" class="nav-link"
                 ><span>Projects</span></a
               >
+               <li class="nav-item">
+              <a href="#certification-section" class="nav-link"
+                ><span>Certification</span></a
+              >
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link"><span>About</span></a>
+            </li>
+    
+           
+            </li>
+           
             </li>
             <li class="nav-item">
               <a href="#contact-section" class="nav-link"
@@ -123,8 +134,7 @@
 
 <section
   class="ftco-about img ftco-section ftco-no-pt ftco-no-pb"
-  id="about-section"
->
+   id="skill-section" >
   <div class="container">
     <div id="page-3" class="page three">
       <h2 class="heading">Skills</h2>
@@ -258,56 +268,7 @@
 </section>
 
 
-
-   <section
-  class="ftco-about img ftco-section ftco-no-pt ftco-no-pb"
-  id="about-section"
->
-  <div class="container">
-    <div class="row d-flex no-gutters">
-      <div class="col-md-6 col-lg-6 d-flex">
-        <div class="img-about img d-flex align-items-stretch">
-          <div class="overlay"></div>
-          <div
-            class="img d-flex align-self-stretch align-items-center"
-            style="background-image: url(myprofile.jpg)"
-          ></div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6 pl-md-5 py-5">
-        <div class="row justify-content-start pb-3">
-          <div class="col-md-12 heading-section ftco-animate">
-            <h2 class="mb-4">About Me</h2>
-            <p>Here's a little about me</p>
-            <ul class="about-info mt-4 px-md-0 px-2">
-              <li class="d-flex"><span>Name:</span><span>Shridhar R. Patil</span></li>
-              <li class="d-flex">
-                <span>Email:</span><span>shridharpatil826@gmail.com</span>
-              </li>
-              <li class="d-flex">
-                <span>Phone:</span><span>+91 8208147136</span>
-              </li>
-              <li class="d-flex">
-                <span>Country:</span> <span>India</span>
-              </li>
-              <li class="d-flex"><span>City:</span><span>Pune</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="counter-wrap ftco-animate d-flex mt-md-3">
-          <div class="text">
-            <p>
-              <a href="Shridhar_R_Patil.pdf" class="btn btn-primary py-3 px-3">Download CV</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+<section class="ftco-section ftco-no-pb goto-here" id="experience-section">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
@@ -402,8 +363,7 @@
   </div>
 </section>
 
-
-   <section class="ftco-section" id="project-section">
+ <section class="ftco-section" id="project-section">
   <div class="container-fluid px-md-5">
     <div class="row justify-content-center py-5 mt-5">
       <div class="col-md-12 heading-section text-center ftco-animate">
@@ -501,6 +461,121 @@
   </div>
 </section>
 
+<style>
+.image-container img {
+  transition: transform 0.5s ease, filter 0.4s ease;
+  transform: scale(1) translateY(0);
+  filter: brightness(90%);
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  z-index: 0;
+  position: relative;
+}
+
+.image-container:hover img {
+  transform: scale(1.12) translateY(-25px) rotate(0deg);
+  filter: brightness(110%);
+}
+
+.image-container:hover::before {
+  opacity: 1;
+}
+</style>
+
+<section class="ftco-section" id="certification-section">
+  <div class="container-fluid px-md-5">
+    <div class="row justify-content-center py-5 mt-5">
+      <div class="col-md-12 heading-section text-center ftco-animate">
+        <h2 class="mb-4">Certifications & Awards </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center d-flex ftco-animate image-container">
+        <div class="services-1 shadow">
+          <img src="PD1.jpg" alt="Salesforce Platform Developer-1" class="img-fluid mb-3">
+          <div class="desc">
+            <h3 class="mb-4">Salesforce Platform Developer-1(PD-1)</h3>
+            <p><strong>Salesforce • Apex • Flows • Validation Rules</strong></p>  
+             <p>
+              Validates foundational skills in building custom applications using Apex, Visualforce, and Lightning components on the Salesforce Platform.
+            </p>          
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center d-flex mx-auto ftco-animate image-container">
+        <a class="services-1 shadow">
+          <img src="AS.jpg" alt="Salesforce Platform Developer-1" class="img-fluid mb-3">
+          <div class="desc">
+            <h3 class="mb-4">Selesforce AI/Agentforce Specialist </h3>
+            <p><strong>Automation • Einstein • Prompting • Service Cloud</strong></p>
+            <p>
+              Validates skills in using AI and automation to optimize customer support and enhance agent efficiency in Salesforce.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 text-center d-flex mx-auto ftco-animate image-container">
+        <a class="services-1 shadow">
+          <img src="AIAssociate.jpg" alt="Salesforce Platform Developer-1" class="img-fluid mb-3">
+          <div class="desc">
+            <h3 class="mb-4">Salesforce AI Associate</h3>
+            <p><strong>AI-Fundamentals • Trust-Layer • Prompt-Design • Data-Security </HTML:5></strong></p>
+            <p>
+              Covers core AI concepts, ethical use, data security, and AI tools like Prompt Builder and Trust Layer in Salesforce.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section  class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+  <div class="container">
+    <div class="row d-flex no-gutters">
+      <div class="col-md-6 col-lg-6 d-flex">
+        <div class="img-about img d-flex align-items-stretch">
+          <div class="overlay"></div>
+          <div
+            class="img d-flex align-self-stretch align-items-center"
+            style="background-image: url(myprofile.jpg)"
+          ></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 pl-md-5 py-5">
+        <div class="row justify-content-start pb-3">
+          <div class="col-md-12 heading-section ftco-animate">
+            <h2 class="mb-4">About Me</h2>
+            <p>Here's a little about me</p>
+            <ul class="about-info mt-4 px-md-0 px-2">
+              <li class="d-flex"><span>Name:</span><span>Shridhar R. Patil</span></li>
+              <li class="d-flex">
+                <span>Email:</span><span>shridharpatil826@gmail.com</span>
+              </li>
+              <li class="d-flex">
+                <span>Phone:</span><span>+91 8208147136</span>
+              </li>
+              <li class="d-flex">
+                <span>Country:</span> <span>India</span>
+              </li>
+              <li class="d-flex"><span>City:</span><span>Pune</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="counter-wrap ftco-animate d-flex mt-md-3">
+          <div class="text">
+            <p>
+              <a href="Shridhar_R_Patil.pdf" class="btn btn-primary py-3 px-3">Download CV</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
   <div class="container">
